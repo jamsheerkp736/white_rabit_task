@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Machine Test White Rabbit Group</title>
+    <link rel="icon" type="image/x-icon" href="img/logo/fav.svg">
+
+
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+
+
+    <!-- bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+    <!-- swiper slider -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+    <!-- Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+
+<body>
+
+    <header data-aos="fade-down" data-aos-duration="1500">
+        <div class="container-fluid cmpad">
+            <div class="headmain">
+                <div class="logocol">
+                    <a href=""><img src="img/logo/logo.svg" alt="treva-logo"></a>
+                </div><!-- logocol -->
+
+
+            </div><!-- headmain -->
+        </div>
+    </header>
+
+
+
+    <div class="slider">
+        <div class="container-fluid cmpad">
+            <div class="row mt">
+                <div class="col-md-6 mb-5 mb-md-0 slide-cen" data-aos="zoom-in" data-aos-duration="1500">
+                    <h1>
+                        Lorem ipsum dolor<br> sit amet consectetur
+                    </h1>
+                    <p>
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat.
+                    </p><br>
+
+                    <div class="slide-btn">
+                        <a href="">Sign Up Now</a>
+                    </div>
+
+                </div>
+                <div class="col-md-6 position-relative" data-aos="zoom-in" data-aos-duration="1500">
+                    <div class="swiper mainslider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="img/slider/slide1.svg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/slider/slide2.svg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/slider/slide3.svg" alt="">
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-pagination"></div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <div class="container-fluid cmpad position-relative pad">
+
+        <img src="img/images/dot.svg" alt="" class="dot">
+
+        <div class="form-sec" data-aos="zoom-in" data-aos-duration="1500">
+
+            <h2>Contact Us</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <label>Name</label>
+                    <input type="text">
+                </div>
+                <div class="col-md-6">
+                    <label>Email</label>
+                    <input type="text">
+                </div>
+                <div class="col-md-6">
+                    <label>Phone Number</label>
+                    <input type="text">
+                </div>
+                <div class="col-md-12">
+                    <label>Choose a Topic</label>
+                    <select>
+                        <option selected>Select One...</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </div>
+                <div class="col-md-12 mb-3">
+                    <label>Message</label>
+                    <textarea rows="6"></textarea>
+                </div>
+            </div>
+
+            <div class="slide-btn text-center">
+                <a href="">Sign Up Now</a>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!-- bootstrap js -->
+
+
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Swiper JS -->
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mainslider", {
+
+            loop: true,
+            autoplay: true,
+            speed: 1000,
+            // effect: 'fade',
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
+
+
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+
+
+</body>
+
+</html>
